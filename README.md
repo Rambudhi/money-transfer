@@ -223,13 +223,13 @@ ORDER BY id DESC;
 A load testing script is available in:
 
 ```text
-scripts/load_test.sh
+scripts/loadtest.sh
 ```
 
 Run it using:
 
 ```bash
-bash scripts/load_test.sh
+bash go run scripts/loadtest.go -n 5000 -c 100 -rps 500
 ```
 
 The script sends concurrent transfer requests and reports the request count, successful responses, rejected requests, server errors, network errors, and actual RPS.
