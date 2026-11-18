@@ -223,7 +223,7 @@ ORDER BY id DESC;
 A load testing script is available in:
 
 ```text
-scripts/loadtest.sh
+scripts/loadtest.go
 ```
 
 Run it using:
